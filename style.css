@@ -1,13 +1,9 @@
 .body {
     align-items: center;
+    justify-content: center;
     font-family: Arial, sans-serif;
-}
-
-#centered{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .head1 {
