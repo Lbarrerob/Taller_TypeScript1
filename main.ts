@@ -23,8 +23,9 @@ function mostrarSeries(series : Serie[]): void {
     let promedioTemp = totalTemp/series.length;
     let filaPromedio : HTMLElement = document.createElement("tr");
     filaPromedio.innerHTML = `<td>-</td>
-                            <td>Promedio Temporadas:</td>
-                            <td>${promedioTemp}</td>`;
+                            <td><b>Promedio Temporadas:</b></td>
+                            <td>${promedioTemp}</td>
+                            <td>-</td>`;
     
     tbodySeries.appendChild(filaPromedio);
     seriesTable.appendChild(tbodySeries);

@@ -13,7 +13,7 @@ function mostrarSeries(series) {
     }
     var promedioTemp = totalTemp / series.length;
     var filaPromedio = document.createElement("tr");
-    filaPromedio.innerHTML = "<td>-</td>\n                            <td>Promedio Temporadas:</td>\n                            <td>".concat(promedioTemp, "</td>");
+    filaPromedio.innerHTML = "<td>-</td>\n                            <td><b>Promedio Temporadas:</b></td>\n                            <td>".concat(promedioTemp, "</td>\n                            <td>-</td>");
     tbodySeries.appendChild(filaPromedio);
     seriesTable.appendChild(tbodySeries);
 }
