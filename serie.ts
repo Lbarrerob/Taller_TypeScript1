@@ -1,7 +1,22 @@
 export class Serie {
-    constructor(public id:number, public nombre:string, public franquisea:string, public temporadas:number, 
-        public descripcion:string, public enlace:string, public imagen:string)
-    {
 
+    id:number;
+    nombre: string; 
+    plataforma: string; 
+    temporadas: number;
+    descripcion: string; 
+    enlace: string; 
+    imagen: string; 
+
+    constructor(id: number, nombre: string, plataforma: string, temporadas: number, 
+                descripcion: string, enlace: string, imagen: string) 
+    {
+        this.id = id;
+        this.nombre = nombre;
+        this.plataforma = plataforma;
+        this.temporadas = temporadas;
+        this.descripcion = descripcion;
+        this.enlace = enlace;
+        this.imagen = imagen;
     }
 }
